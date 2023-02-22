@@ -5,8 +5,8 @@ import Article from "./Article.js";
 export default function App() {
   return (
     <>
-      <Article />
-      <Article />
+      <Article number="1" />
+      <Article number="2" />
     </>
   );
 }
