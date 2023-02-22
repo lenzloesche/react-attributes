@@ -1,12 +1,11 @@
 import React from "react";
 import "./styles.css";
-import Article from "./Article.js";
+import MultipleArticles from "./MultipleArticles.js";
 
 export default function App() {
   return (
     <>
-      <Article number="1" />
-      <Article number="2" />
+      <MultipleArticles numbers="5" />
     </>
   );
 }
